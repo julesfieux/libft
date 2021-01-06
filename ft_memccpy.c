@@ -6,7 +6,7 @@
 /*   By: jfieux <jfieux@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/18 17:07:02 by jfieux            #+#    #+#             */
-/*   Updated: 2021/01/06 11:26:47 by jfieux           ###   ########.fr       */
+/*   Updated: 2021/01/06 11:31:46 by jfieux           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 void	*ft_memccpy(void *dest, const void *src, int c, size_t n)
 {
-	char	*d;
-	char	*s;
+	unsigned char	*d;
+	unsigned char	*s;
 	size_t	i;
 
 	if (!dest && !src)

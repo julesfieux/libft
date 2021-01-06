@@ -6,7 +6,7 @@
 /*   By: jfieux <jfieux@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/18 17:15:09 by jfieux            #+#    #+#             */
-/*   Updated: 2021/01/06 10:45:57 by jfieux           ###   ########.fr       */
+/*   Updated: 2021/01/06 10:53:01 by jfieux           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ char	*ft_strnstr(const char *s1, const char *s2, size_t size)
 	size_t f;
 
 	i = 0;
+	if (!s2)
+		return ((char *)s1);
 	while (s1[i] && i < size)
 	{
 		f = 0;

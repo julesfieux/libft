@@ -6,7 +6,7 @@
 /*   By: jfieux <jfieux@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/19 17:42:02 by jfieux            #+#    #+#             */
-/*   Updated: 2020/12/17 14:17:39 by jfieux           ###   ########.fr       */
+/*   Updated: 2021/01/06 10:35:28 by jfieux           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,6 @@ void	ft_bzero(void *s, size_t n)
 {
 	char *s1;
 
-	if (!s)
-		return ;
 	s1 = (char *)s;
 	while (n > 0)
 	{

@@ -6,7 +6,7 @@
 /*   By: jfieux <jfieux@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/25 17:44:12 by jfieux            #+#    #+#             */
-/*   Updated: 2020/12/17 14:14:57 by jfieux           ###   ########.fr       */
+/*   Updated: 2021/01/06 10:38:15 by jfieux           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,6 @@ char	*ft_strdup(const char *s)
 	int		size;
 	int		i;
 
-	if (!s)
-		return (0);
 	size = ft_strlen((char *)s);
 	if (!(str = malloc(sizeof(char) * (size + 1))))
 		return (0);

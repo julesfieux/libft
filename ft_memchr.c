@@ -6,7 +6,7 @@
 /*   By: jfieux <jfieux@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/18 18:12:58 by jfieux            #+#    #+#             */
-/*   Updated: 2020/12/17 14:20:09 by jfieux           ###   ########.fr       */
+/*   Updated: 2021/01/06 10:35:39 by jfieux           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,6 @@ void	*ft_memchr(const void *s, int c, size_t n)
 {
 	char *str;
 
-	if (!s)
-		return (0);
 	str = (char *)s;
 	while (*str && n > 0)
 	{

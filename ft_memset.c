@@ -6,7 +6,7 @@
 /*   By: jfieux <jfieux@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/18 17:08:14 by jfieux            #+#    #+#             */
-/*   Updated: 2020/11/25 18:32:36 by jfieux           ###   ########.fr       */
+/*   Updated: 2021/01/06 10:28:16 by jfieux           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,6 @@ void	*ft_memset(void *s, int c, size_t n)
 {
 	char *var;
 
-	if (s == 0)
-		return (0);
 	var = s;
 	while (n > 0)
 	{

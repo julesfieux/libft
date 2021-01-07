@@ -6,7 +6,7 @@
 /*   By: jfieux <jfieux@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/26 18:23:48 by jfieux            #+#    #+#             */
-/*   Updated: 2021/01/05 11:07:37 by jfieux           ###   ########.fr       */
+/*   Updated: 2021/01/07 16:17:02 by jfieux           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,7 @@ static char	**ft_init(const char *s, char c, char **res, int i)
 				j++;
 				i++;
 			}
+			res[k][j] = '\0';
 			k++;
 		}
 		else

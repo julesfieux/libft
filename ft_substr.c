@@ -6,7 +6,7 @@
 /*   By: jfieux <jfieux@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/25 18:13:35 by jfieux            #+#    #+#             */
-/*   Updated: 2021/01/07 16:03:00 by jfieux           ###   ########.fr       */
+/*   Updated: 2021/01/07 16:04:47 by jfieux           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,6 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 		}
 		i++;
 	}
-	str[i] = '\0';
+	str[f] = '\0';
 	return (str);
 }

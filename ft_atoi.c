@@ -6,7 +6,7 @@
 /*   By: jfieux <jfieux@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/18 17:06:34 by jfieux            #+#    #+#             */
-/*   Updated: 2021/01/08 11:31:23 by jfieux           ###   ########.fr       */
+/*   Updated: 2021/01/08 11:35:46 by jfieux           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 int		ft_atoi(char *str)
 {
-	int				i;
-	int				sign;
-	long long int	res;
+	int			i;
+	int			sign;
+	long int	res;
 
 	i = 0;
 	sign = 1;

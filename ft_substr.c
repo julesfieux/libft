@@ -6,7 +6,7 @@
 /*   By: jfieux <jfieux@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/25 18:13:35 by jfieux            #+#    #+#             */
-/*   Updated: 2021/01/08 15:49:22 by jfieux           ###   ########.fr       */
+/*   Updated: 2021/01/08 15:56:43 by jfieux           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,9 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	size_t	f;
 	char	*str;
 
-	str = malloc(sizeof(char) * (len + 1));
-	if (!str)
+	if (!s || !start)
+		return (0);
+	if (!(str = malloc(sizeof(char) * (len + 1))))
 		return (0);
 	i = 0;
 	f = 0;

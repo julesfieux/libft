@@ -6,7 +6,7 @@
 /*   By: jfieux <jfieux@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/26 17:09:25 by jfieux            #+#    #+#             */
-/*   Updated: 2021/01/05 11:10:49 by jfieux           ###   ########.fr       */
+/*   Updated: 2021/01/08 16:16:26 by jfieux           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,6 +47,8 @@ char			*ft_strtrim(char const *s1, char const *set)
 	int		j;
 
 	i = 0;
+	if (!s1 || !set)
+		return (0);
 	while (s1[i] && ft_isset(s1[i], set) == 1)
 		i++;
 	len = 0;

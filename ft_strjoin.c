@@ -6,13 +6,13 @@
 /*   By: jfieux <jfieux@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/26 16:24:44 by jfieux            #+#    #+#             */
-/*   Updated: 2021/01/08 16:21:27 by jfieux           ###   ########.fr       */
+/*   Updated: 2021/01/08 16:23:15 by jfieux           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*join_init(char *res, char *s1, char *s2, int i)
+char	*join_init(char *res, char const *s1, char const *s2, int i)
 {
 	int j;
 

@@ -6,7 +6,7 @@
 /*   By: jfieux <jfieux@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/26 16:24:44 by jfieux            #+#    #+#             */
-/*   Updated: 2020/11/26 17:08:22 by jfieux           ###   ########.fr       */
+/*   Updated: 2021/01/08 16:14:01 by jfieux           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	int		j;
 	char	*res;
 
+	if (!s1 || !s2)
+		return (0);
 	len = (ft_strlen(s1) + ft_strlen(s2));
 	if (!(res = malloc(sizeof(char) * (len + 1))))
 		return (0);

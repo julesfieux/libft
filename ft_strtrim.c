@@ -6,7 +6,7 @@
 /*   By: jfieux <jfieux@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/26 17:09:25 by jfieux            #+#    #+#             */
-/*   Updated: 2021/01/08 16:16:26 by jfieux           ###   ########.fr       */
+/*   Updated: 2021/01/08 16:25:19 by jfieux           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,7 +64,6 @@ char			*ft_strtrim(char const *s1, char const *set)
 	}
 	if (!(res = malloc(sizeof(char) * (len + 1))))
 		return (0);
-	i = i - len;
-	res = ft_initialize(s1, res, len, i);
+	res = ft_initialize(s1, res, len, (i - len));
 	return (res);
 }

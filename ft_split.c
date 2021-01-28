@@ -6,7 +6,7 @@
 /*   By: jfieux <jfieux@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/26 18:23:48 by jfieux            #+#    #+#             */
-/*   Updated: 2021/01/08 16:29:49 by jfieux           ###   ########.fr       */
+/*   Updated: 2021/01/28 11:39:10 by jfieux           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,8 +62,6 @@ static int	ft_malword(int c, int i, const char *s, char **res)
 		else
 			i++;
 	}
-	if (!(res[k] = malloc(sizeof(char))))
-		return (0);
 	return (1);
 }
 
